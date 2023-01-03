@@ -17,12 +17,9 @@ def pascal_triangle(n):
     """
     if type(n) is not int:
         raise TypeError("n must be an integer")
-    
     pascal_triangle = []
-    
     if n <= 0:
         return pascal_triangle
-
     prev = [1]
     for i in range(n):
         i_list = []
