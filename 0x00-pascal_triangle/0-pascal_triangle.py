@@ -17,9 +17,9 @@ def pascal_triangle(n):
     """
     if type(n) is not int:
         raise TypeError("n must be an integer")
-    pascal_triangle = []
+    triangle = []
     if n <= 0:
-        return pascal_triangle
+        return triangle
     prev = [1]
     for i in range(n):
         i_list = []
@@ -34,5 +34,5 @@ def pascal_triangle(n):
                 else:
                     i_list.append(prev[j - 1] + prev[j])
         prev = i_list
-        pascal_triangle.append(i_list)
-    return pascal_triangle
+        triangle.append(i_list)
+    return triangle
