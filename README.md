@@ -6,6 +6,8 @@
 
 ### [0x01. Lockboxes](0x01-lockboxes)
 
+### [0x03. Log Parsing](0x03-log_parsing)
+
 ---
 
 ### Author
