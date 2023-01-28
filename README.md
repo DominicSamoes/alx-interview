@@ -1,6 +1,6 @@
 # 0x00. Pascal's Triangle
 
-## ALX Frontend Specialisation
+## ALX Interview
 
 ### [0x00. Pascal's Triangle](0x00-pascal_triangle)
 
@@ -8,7 +8,9 @@
 
 ### [0x03. Log Parsing](0x03-log_parsing)
 
+### [0x04 UTF8 Validation](0x04-utf8_validation)
+
 ---
 
 ### Author
-* **Dominic Samo** - (https://github.com/DominicSamoes)
+* **Dominic Samo** - (https://www.linkedin.com/in/dominic-samo-754014187/)
