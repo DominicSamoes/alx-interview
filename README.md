@@ -6,9 +6,7 @@
 
 ### [0x01. Lockboxes](0x01-lockboxes)
 
-
-
-### [0x03-minimum_operations](0x02-minimum_operations)
+### [0x02-minimum_operations](0x02-minimum_operations)
 
 ### [0x03. Log Parsing](0x03-log_parsing)
 
