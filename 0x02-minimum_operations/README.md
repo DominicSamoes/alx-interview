@@ -3,7 +3,7 @@
 ## ALX Interview
 For this interview practice algorithm, there is a text file with a single character.  The text editor can only execute two operations: Copy All and Paste.
 
-[0. Minimum Operations](/0x03-minimum_operations/0-minoperations.py)
+[0. Minimum Operations](./0-minoperations.py)
 * Given a number `n`, write a method that calculates the fewest number of operation needed to result in exactly `n` characters in the file.
   * Example: `n` = 9
     * H => Copy All => Paste => HH => Paste =>HHH => Copy All => Paste => HHHHHH => Paste => HHHHHHHHH

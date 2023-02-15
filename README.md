@@ -6,11 +6,15 @@
 
 ### [0x01. Lockboxes](0x01-lockboxes)
 
+
+
 ### [0x03-minimum_operations](0x02-minimum_operations)
 
 ### [0x03. Log Parsing](0x03-log_parsing)
 
 ### [0x04 UTF8 Validation](0x04-utf8_validation)
+
+### [0x05. N Queens](0x05-nqueens)
 
 ### [0x07. Rotate 2D Matrix](0x07-rotate_2d_matrix)
 
