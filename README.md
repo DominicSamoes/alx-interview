@@ -10,6 +10,8 @@
 
 ### [0x04 UTF8 Validation](0x04-utf8_validation)
 
+### [0x07. Rotate 2D Matrix](0x07-rotate_2d_matrix)
+
 ---
 
 ### Author
