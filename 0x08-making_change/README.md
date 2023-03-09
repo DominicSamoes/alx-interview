@@ -1,34 +1,17 @@
-# 0x22. Prime Game
+# 0x08. Making Change
 
-Maria and Ben are playing a game. Given a set of consecutive integers starting from 1 up to and including n, they take turns choosing a prime number from the set and removing that number and its multiples from the set. The player that cannot make a move loses the game.
+## [0. Change comes from within](./0-making_change.py)
 
-They play x rounds of the game, where n may be different for each round. Assuming Maria always goes first and both players play optimally, determine who the winner of each game is.
+Given a pile of coins of different values, determine the fewest number of coins needed to meet a given amount total.
 
-### Prototype: def isWinner(x, nums)
-* where x is the number of rounds and nums is an array of n
-* Return: name of the player that won the most rounds
-* If the winner cannot be determined, return None
-* You can assume n and x will not be larger than 10000
-* You cannot import any packages in this task
-
-### Example:
-
-x = 3, nums = [4, 5, 1]
-First round: 4
-
-Maria picks 2 and removes 2, 4, leaving 1, 3
-Ben picks 3 and removes 3, leaving 1
-Ben wins because there are no prime numbers left for Maria to choose
-Second round: 5
-
-Maria picks 2 and removes 2, 4, leaving 1, 3, 5
-Ben picks 3 and removes 3, leaving 1, 5
-Maria picks 5 and removes 5, leaving 1
-Maria wins because there are no prime numbers left for Ben to choose
-Third round: 1
-
-Ben wins because there are no prime numbers for Maria to choose
-Result: Ben has the most wins
+Prototype: def makeChange(coins, total)
+Return: fewest number of coins needed to meet total
+If total is 0 or less, return 0
+If total cannot be met by any number of coins you have, return -1
+coins is a list of the values of the coins in your possession
+The value of a coin will always be an integer greater than 0
+You can assume you have an infinite number of each denomination of coin in the list
+Your solution’s runtime will be evaluated in this task
 
 ---
 
